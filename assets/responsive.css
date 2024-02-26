@@ -1,0 +1,253 @@
+/* About me */
+@media screen and (max-width: 1360px) {
+  #aboutme #pic img {
+    width: 340px;
+    height: 340px;
+  }
+  #aboutme #aboutme-text .one h1 {
+    font-size: 20px;
+  }
+  #aboutme #aboutme-text .two p {
+    font-size: 16px;
+  }
+  #aboutme #aboutme-text .three p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1155px) {
+  #aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+  }
+  #aboutme #pic {
+    height: 310px;
+    width: 300px;
+  }
+  #aboutme #pic img {
+    width: 300px;
+    height: 300px;
+  }
+  #aboutme #aboutme-text {
+    width: 85%;
+    height: 310px;
+    text-align: justify;
+  }
+  #aboutme #aboutme-text .one {
+    font-weight: 300;
+  }
+  #aboutme #aboutme-text .one h1 {
+    font-size: 18px;
+  }
+  #aboutme #aboutme-text .two p {
+    font-size: 16px;
+  }
+  #aboutme #aboutme-text .three p {
+    font-size: 16px;
+  }
+  #contact .naslov {
+    width: 20%;
+  }
+  #contact .naslov h2 {
+    font-size: 18px;
+  }
+  #contact #forms #submit, #contact #forms #reset {
+    font-size: 10px;
+    width: 35%;
+  }
+  footer #ikonice {
+    width: 15%;
+  }
+  footer #ime {
+    text-align: center;
+  }
+  footer #socials {
+    width: 15%;
+  }
+}
+@media screen and (max-width: 876px) {
+  #services #row .block {
+    width: 18%;
+    height: 170px;
+  }
+  #services #row .block .icon {
+    font-size: 28px;
+  }
+  #services #row .block .name p {
+    font-size: 16.5px;
+  }
+  #projects {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #projects .centriranje #row2 {
+    height: 180px;
+  }
+  #projects .centriranje #row2 .proj {
+    width: 280px;
+    height: 160px;
+  }
+  #projects .centriranje #row2 .proj img {
+    width: 100%;
+    height: 100%;
+  }
+  #cover {
+    height: 600px;
+  }
+  #cover .tint #cover-text h1 {
+    font-size: 30px;
+  }
+  footer #ikonice {
+    width: 22%;
+  }
+  footer #socials {
+    width: 22%;
+  }
+  header {
+    height: 140px;
+  }
+  header .centriranje {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .centriranje #logo {
+    height: 90px;
+    width: 85px;
+  }
+  header .centriranje #menu {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 684px) {
+  header {
+    height: 250px;
+  }
+  header .centriranje #menu {
+    height: 150px;
+  }
+  header .centriranje #menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  header .centriranje #menu ul li {
+    margin: 2px 0px;
+    border-bottom: 1px solid #fff;
+  }
+  #services {
+    height: 500px;
+  }
+  #services .title1 p {
+    font-size: 17px;
+  }
+  #services .title1 h1 {
+    font-size: 20px;
+  }
+  #services #row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  #services #row .block {
+    width: 40%;
+    height: 135px;
+  }
+  #services #row .block .icon {
+    font-size: 28px;
+  }
+  #services #row .block .name p {
+    font-size: 16.5px;
+  }
+  #contact .naslov {
+    width: 23%;
+  }
+  #contact .naslov h2 {
+    font-size: 15px;
+  }
+  #contact #forms {
+    width: 55%;
+  }
+  #contact #forms #submit, #contact #forms #reset {
+    width: 47%;
+  }
+  #cover .tint #cover-text h1 {
+    font-size: 26px;
+  }
+  #projects {
+    height: 510px;
+  }
+  #projects .centriranje .title2 {
+    height: 80px;
+  }
+  #projects .centriranje .title2 p {
+    font-size: 17px;
+  }
+  #projects .centriranje .title2 h1 {
+    font-size: 20px;
+  }
+  #projects .centriranje #row2 {
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #projects .centriranje #row2 .proj {
+    width: 260px;
+    height: 160px;
+  }
+  #projects .centriranje #row2 .proj img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 519px) {
+  #aboutme {
+    height: 720px;
+  }
+  #aboutme #pic {
+    height: 300px;
+    width: 290px;
+  }
+  #aboutme #pic img {
+    width: 290px;
+    height: 290px;
+  }
+  #aboutme #aboutme-text {
+    width: 85%;
+    height: 330px;
+    text-align: justify;
+  }
+  #aboutme #aboutme-text .one {
+    font-weight: 300;
+  }
+  #aboutme #aboutme-text .one h1 {
+    font-size: 17px;
+  }
+  #aboutme #aboutme-text .two p {
+    font-size: 14px;
+  }
+  #aboutme #aboutme-text .three p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer {
+    height: 80px;
+  }
+  footer #ikonice {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer #ikonice i {
+    margin: 2px;
+  }
+  footer #socials {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer #socials i {
+    margin: 2px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
